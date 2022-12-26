@@ -1,0 +1,47 @@
+###
+
+GET http://localhost:3001/categories
+
+###
+
+GET http://localhost:3001/products
+
+###
+
+POST http://localhost:3001/categories
+Content-Type: application/json
+
+{
+  "icon": "🍕",
+  "name": "Pizza"
+}
+
+###
+
+POST http://localhost:3001/categories
+Content-Type: application/json
+
+{
+  "icon": "🍺",
+  "name": "Bebidas"
+}
+
+###
+
+POST http://localhost:3001/categories
+Content-Type: application/json
+
+{
+  "icon": "🍔",
+  "name": "Hamburgueres"
+}
+
+###
+
+POST http://localhost:3001/categories
+Content-Type: application/json
+
+{
+  "icon": "🏷️",
+  "name": "Promoções"
+}
